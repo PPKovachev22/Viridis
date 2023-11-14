@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    background-color: transparent;
+    color: forestgreen;
+    text-align: center;
+    padding: 60px;
+    border: 10px solid #4CAF50;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    margin: 100px auto 40px;
+    font-size: 24px;
+}
+
+nav {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 32px; /* Adjusted padding for closer elements */
+    transition: color 0.3s, background-color 0.3s, padding 0.3s;
+    border-radius: 10px;
+    margin: 0;
+    position: relative;
+
+    &:hover::before {
+        content: "";
+        position: absolute;
+        top: -2px; /* Adjusted positioning for smaller field */
+        right: -2px;
+        bottom: -2px;
+        left: -2px;
+        background-color: #228B22;
+        border-radius: 10px; /* Smaller border-radius for a smaller field */
+        z-index: -1;
+    }
+
+    &:hover {
+        color: chartreuse;
+        background-color: #228B22;
+        padding: 16px 32px;
+    }
+}
+
+.nav-item.home {
+    margin-left: 100px; /* Adjust the margin as needed */
+}
+
+.nav-item.about {
+    margin-left: 100px; /* Adjust the margin as needed */
+}
+
+.nav-item.challenges {
+    margin-right: 70px; /* Adjust the margin as needed */
+}
+
+.nav-item.contact {
+    margin-right: 100px; /* Adjust the margin as needed */
+}
+
+.company-info {
+    margin-left: 1300px;
+    padding: 8px; /* Reduced padding */
+    margin-top: auto; /* Push to the bottom */
+    display: flex;
+    justify-content: flex-end; /* Move to the right end */
+    align-items: center;
+}
+
+.company-info img {
+    max-width: 60px; /* Reduced max-width */
+    height: auto;
+    margin-right: 5px; /* Reduced margin-right */
+}
+
+.company-info h2 {
+    font-size: 14px; /* Reduced font size */
+}
+.transparent-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.transparent-button:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+.environment-box {
+    background-color: #fff;
+    padding: 80px;
+    margin: 60px;
+    border: 8px solid #4CAF50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; /* Added for positioning the checkbox */
+}
+
+.environment-box {
+    background-color: #fff;
+    padding: 80px;
+    margin: 60px;
+    border: 8px solid #4CAF50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative; /* Added for positioning the checkbox */
+}
+
+.environment-box h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.environment-box p {
+    font-size: 36px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.checkbox-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.larger-checkbox {
+    transform: scale(5); /* Increase checkbox size */
+}
+.knowledge-test-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.knowledge-test-button:hover {
+    background-color: #228B22;
+}
+#water-box,
+#air-box {
+    background-color: #fff;
+    padding: 80px;
+    margin: 60px;
+    border: 8px solid #4CAF50;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+#water-box h2,
+#air-box h2 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#water-box p,
+#air-box p {
+    font-size: 36px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.checkbox-label {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#water-box .larger-checkbox,
+#air-box .larger-checkbox {
+    transform: scale(5); /* Increase checkbox size */
+}
+
+.knowledge-test-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.knowledge-test-button:hover {
+    background-color: #228B22;
+}
