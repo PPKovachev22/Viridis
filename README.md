@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> d6fe9a249dc7ba9f6c1fc1bf414c55ad57a61b21
 <h1 align="center">Viridis</h1>
 <p align="center">
 </p>
 
  💻 About
+<<<<<<< HEAD
 <p align="center">This is our website about "Green Challenges", where you will learn about the problems in the environment and how to fix them </p>
+=======
+<p align="center">This is our website about "Green Challenges", where you will learn about recycling in the environment </p>
+>>>>>>> d6fe9a249dc7ba9f6c1fc1bf414c55ad57a61b21
  Used tools for our visual elements:
 <p align="left">
   <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a>
@@ -24,6 +32,15 @@ Used tools for our documentation, presentation & communication:
  ## 🧒 Our Team
  
 <a href = "https://github.com/PPKovachev22">Petko Kovachev </a> (Scrum trainer)
+<<<<<<< HEAD
 <a href = "https://github.com/PPDimitrov22">Petar Dimitrov</a> (Designer)
 <a href = "https://github.com/MEDimitrov22">Martin Dimitrov</a> (Front-end Developer)
 <a href = "https://github.com/KSPetrov22">Kaloyan Strashimirov</a> (Front-end Developer)
+=======
+
+<a href = "https://github.com/PPDimitrov22">Petar Dimitrov</a> (Designer)
+
+<a href = "https://github.com/MEDimitrov22">Martin Dimitrov</a> (Front-end Developer)
+
+<a href = "https://github.com/KSPetrov22">Kaloyan Strashimirov</a> (Front-end Developer)
+>>>>>>> d6fe9a249dc7ba9f6c1fc1bf414c55ad57a61b21
