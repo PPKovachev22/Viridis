@@ -25,6 +25,9 @@ Used tools for our documentation, presentation & communication:
  ## 🧒 Our Team
  
 <a href = "https://github.com/PPKovachev22">Petko Kovachev </a> (Scrum trainer)
+
 <a href = "https://github.com/PPDimitrov22">Petar Dimitrov</a> (Designer)
+
 <a href = "https://github.com/MEDimitrov22">Martin Dimitrov</a> (Front-end Developer)
+
 <a href = "https://github.com/KSPetrov22">Kaloyan Strashimirov</a> (Front-end Developer)
