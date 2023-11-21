@@ -21,9 +21,9 @@ Used tools for our documentation, presentation & communication:
  <a href="https://www.microsoft.com/en/microsoft-teams/group-chat-software"><img src="https://img.icons8.com/color/344/microsoft-teams.png" alt = "MS Teams logo" width=46px /></a>
  </p>
  
- ## 🧒 Our Team
- 
-<a href = "https://github.com/PPKovachev22">Petko Kovachev </a> (Scrum trainer)
-<a href = "https://github.com/PPDimitrov22">Petar Dimitrov</a> (Designer)
-<a href = "https://github.com/MEDimitrov22">Martin Dimitrov</a> (Front-end Developer)
-<a href = "https://github.com/KSPetrov22">Kaloyan Strashimirov</a> (Front-end Developer)
+## 🧒 Our Team
+
+<a href="https://github.com/PPKovachev22">Petko Kovachev</a> (Scrum trainer)<br>
+<a href="https://github.com/PPDimitrov22">Petar Dimitrov</a> (Designer)<br>
+<a href="https://github.com/MEDimitrov22">Martin Dimitrov</a> (Front-end Developer)<br>
+<a href="https://github.com/KSPetrov22">Kaloyan Strashimirov</a> (Front-end Developer)

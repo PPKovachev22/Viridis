@@ -47,7 +47,7 @@ nav a {
     color: #fff;
     font-weight: bold;
     font-size: 16px;
-    padding: 16px 32px; /* Adjusted padding for closer elements */
+    padding: 16px 32px;
     transition: color 0.3s, background-color 0.3s, padding 0.3s;
     border-radius: 10px;
     margin: 0;
@@ -56,12 +56,12 @@ nav a {
     &:hover::before {
         content: "";
         position: absolute;
-        top: -2px; /* Adjusted positioning for smaller field */
+        top: -2px;
         right: -2px;
         bottom: -2px;
         left: -2px;
         background-color: #228B22;
-        border-radius: 10px; /* Smaller border-radius for a smaller field */
+        border-radius: 10px;
         z-index: -1;
     }
 
@@ -73,38 +73,38 @@ nav a {
 }
 
 .nav-item.home {
-    margin-left: 100px; /* Adjust the margin as needed */
+    margin-left: 100px;
 }
 
 .nav-item.about {
-    margin-left: 100px; /* Adjust the margin as needed */
+    margin-left: 100px;
 }
 
 .nav-item.challenges {
-    margin-right: 70px; /* Adjust the margin as needed */
+    margin-right: 70px;
 }
 
 .nav-item.contact {
-    margin-right: 100px; /* Adjust the margin as needed */
+    margin-right: 100px;
 }
 
 .company-info {
     margin-left: 1300px;
-    padding: 8px; /* Reduced padding */
-    margin-top: auto; /* Push to the bottom */
+    padding: 8px;
+    margin-top: auto;
     display: flex;
-    justify-content: flex-end; /* Move to the right end */
+    justify-content: flex-end;
     align-items: center;
 }
 
 .company-info img {
-    max-width: 60px; /* Reduced max-width */
+    max-width: 60px;
     height: auto;
-    margin-right: 5px; /* Reduced margin-right */
+    margin-right: 5px;
 }
 
 .company-info h2 {
-    font-size: 14px; /* Reduced font size */
+    font-size: 14px;
 }
 .transparent-button {
     display: inline-block;
@@ -129,7 +129,7 @@ nav a {
     border: 8px solid #4CAF50;
     border-radius: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    position: relative; /* Added for positioning the checkbox */
+    position: relative;
 }
 
 .environment-box {
@@ -139,7 +139,7 @@ nav a {
     border: 8px solid #4CAF50;
     border-radius: 40px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    position: relative; /* Added for positioning the checkbox */
+    position: relative;
 }
 
 .environment-box h2 {
@@ -161,7 +161,7 @@ nav a {
 }
 
 .larger-checkbox {
-    transform: scale(5); /* Increase checkbox size */
+    transform: scale(5);
 }
 .knowledge-test-button {
     position: absolute;
@@ -214,7 +214,7 @@ nav a {
 
 #water-box .larger-checkbox,
 #air-box .larger-checkbox {
-    transform: scale(5); /* Increase checkbox size */
+    transform: scale(5);
 }
 
 .knowledge-test-button {
@@ -234,4 +234,81 @@ nav a {
 
 .knowledge-test-button:hover {
     background-color: #228B22;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    color: forestgreen;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+}
+
+#result-message {
+    display: none;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#result-message p {
+    margin-bottom: 10px;
+}
+
+#result-message a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#result-message a:hover {
+    background-color: #228B22;
+}
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #45a049;
 }
