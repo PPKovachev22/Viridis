@@ -1,4 +1,3 @@
-
 document.getElementById("water-test-form").addEventListener("submit", function(event) {
     event.preventDefault();
     const answers = {

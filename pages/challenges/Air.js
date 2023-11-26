@@ -22,11 +22,4 @@ document.getElementById("air-test-form").addEventListener("submit", function (ev
     }
     document.getElementById("score").textContent = score;
     document.getElementById("result-message").style.display = "block";
-    checkAllCheckboxes();
 });
-function checkAllCheckboxes() {
-    const checkboxes = document.querySelectorAll(".environment-box input[type='checkbox']");
-    checkboxes.forEach((checkbox) => {
-        checkbox.checked = true;
-    });
-}

@@ -132,16 +132,6 @@ nav a {
     position: relative;
 }
 
-.environment-box {
-    background-color: #fff;
-    padding: 80px;
-    margin: 60px;
-    border: 8px solid #4CAF50;
-    border-radius: 40px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    position: relative;
-}
-
 .environment-box h2 {
     font-size: 48px;
     color: #333;
@@ -154,15 +144,10 @@ nav a {
     margin-bottom: 30px;
 }
 
-.checkbox-label {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-}
-
 .larger-checkbox {
     transform: scale(5);
 }
+
 .knowledge-test-button {
     position: absolute;
     bottom: 20px;
@@ -178,9 +163,6 @@ nav a {
     transition: background-color 0.3s;
 }
 
-.knowledge-test-button:hover {
-    background-color: #228B22;
-}
 #water-box,
 #air-box {
     background-color: #fff;
@@ -204,50 +186,6 @@ nav a {
     font-size: 36px;
     color: #555;
     margin-bottom: 30px;
-}
-
-.checkbox-label {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-}
-
-#water-box .larger-checkbox,
-#air-box .larger-checkbox {
-    transform: scale(5);
-}
-
-.knowledge-test-button {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 15px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 16px;
-    transition: background-color 0.3s;
-}
-
-.knowledge-test-button:hover {
-    background-color: #228B22;
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
 }
 
 h1 {
@@ -311,4 +249,54 @@ form label {
 }
 .submit-button:hover {
     background-color: #45a049;
+}
+.bottom-navbar {
+    background-color: transparent;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom-navbar .nav-item {
+    margin: 0;
+}
+
+.bottom-navbar .challenges {
+    margin-right: -1px;
+}
+.bottom-navbar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 32px;
+    transition: color 0.3s, background-color 0.3s, padding 0.3s;
+    border-radius: 10px;
+    margin: 0;
+    position: relative;
+
+    &:hover::before {
+        content: "";
+        position: absolute;
+        top: -2px;
+        right: -2px;
+        bottom: -2px;
+        left: -2px;
+        background-color: #228B22;
+        border-radius: 10px;
+        z-index: -1;
+    }
+
+    &:hover {
+        color: chartreuse;
+        background-color: #228B22;
+        padding: 16px 32px;
+    }
 }
