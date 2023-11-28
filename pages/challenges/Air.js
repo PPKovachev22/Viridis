@@ -2,15 +2,15 @@ document.getElementById("air-test-form").addEventListener("submit", function (ev
     event.preventDefault();
     const answers = {
         q1: "b",
-        q2: "b",
-        q3: "b",
-        q4: "b",
+        q2: "a",
+        q3: "a",
+        q4: "c",
         q5: "b",
-        q6: "b",
+        q6: "a",
         q7: "c",
         q8: "b",
-        q9: "b",
-        q10: "b"
+        q9: "c",
+        q10: "a"
     };
 
     let score = 0;

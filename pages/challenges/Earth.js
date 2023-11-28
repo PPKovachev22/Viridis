@@ -2,15 +2,15 @@ document.getElementById("ground-test-form").addEventListener("submit", function(
     event.preventDefault();
     const answers = {
         q1: "a",
-        q2: "b",
-        q3: "b",
+        q2: "c",
+        q3: "c",
         q4: "b",
-        q5: "b",
+        q5: "c",
         q6: "a",
         q7: "c",
         q8: "b",
-        q9: "b",
-        q10: "b"
+        q9: "a",
+        q10: "a"
     };
 
     let score = 0;

@@ -4,6 +4,10 @@
   </h1>
 </div>
 
+<div align="center">
+  <img src="images/logo_viridis.png" width="200">
+</div>
+
  ## 💻 About
 <p align="center" style="font-size: 16px;">This is our website about "Green Challenges," where you will learn about the problems in the environment and how to fix them.</p>
  
