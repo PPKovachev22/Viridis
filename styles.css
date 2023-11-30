@@ -10,6 +10,15 @@ body {
     min-height: 100vh;
 }
 
+
+@keyframes popUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 header {
     background-color: transparent;
     color: forestgreen;
@@ -21,8 +30,21 @@ header {
     max-width: 90%;
     margin: 100px auto 40px;
     font-size: 24px;
+    opacity: 0;
+  transform: translateY(-50px);
+  animation: popUp 1s ease-out forwards;
 }
-
+.environment-box {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s ease-out forwards;
+	transition: all 0.5s;
+	transition-delay: 0s;
+}
+.environment-box.animate {
+    opacity: 1;
+    animation: popUp 1s ease-out forwards;
+}
 nav {
     background-color: #4CAF50;
     text-align: center;
@@ -53,23 +75,16 @@ nav a {
     margin: 0;
     position: relative;
 
-    &:hover::before {
-        content: "";
-        position: absolute;
-        top: -2px;
-        right: -2px;
-        bottom: -2px;
-        left: -2px;
-        background-color: #228B22;
-        border-radius: 10px;
-        z-index: -1;
-    }
-
     &:hover {
         color: chartreuse;
         background-color: #228B22;
         padding: 16px 32px;
     }
+}
+.active{
+    color: chartreuse;
+        background-color: #228B22;
+        padding: 16px 32px;
 }
 
 .nav-item.home {
@@ -283,17 +298,6 @@ form label {
     margin: 0;
     position: relative;
 
-    &:hover::before {
-        content: "";
-        position: absolute;
-        top: -2px;
-        right: -2px;
-        bottom: -2px;
-        left: -2px;
-        background-color: #228B22;
-        border-radius: 10px;
-        z-index: -1;
-    }
 
     &:hover {
         color: chartreuse;
