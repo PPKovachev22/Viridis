@@ -11,10 +11,7 @@
  ## 💻 About
 <p align="center" style="font-size: 16px;">This is our website about "Green Challenges," where you will learn about the problems in the environment and how to fix them.</p>
  
-## 🛠️ Used tools for our visual elements:
-<p align="left">
-  <a href="https://www.figma.com/"><img src="https://img.icons8.com/color/344/figma--v1.png" alt="Figma logo" width=48px/></a><br>
-</p>
+
 
 ## 🖊 Used code editor & collaborative service:
 <p align="left">

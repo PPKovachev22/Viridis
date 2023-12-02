@@ -4,55 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+        body{
+            background: url('../images/nature.gif') center/cover no-repeat fixed;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .environment-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 8px solid #4CAF50;
+            border-radius: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+
+        .environment-image {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px; /* Adjust the margin as needed */
+        }
+
+        .environment-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .environment-content h2 {
+            order: -1; /* Move h2 to the top */
+        }
+
+        /* Additional styles for other elements */
+
+        .jump-to-challenges {
+            margin-top: auto;
+            margin-left: auto;
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="nav-item home"><a href="../index.html">Home</a></li>
-            <li class="nav-item"><a class="active" href="About.html">About</a></li>
-            <li class="nav-item challenges"><a href="Challenges.html">Challenges</a></li>
-            <li class="nav-item contact"><a href="Contacts.html">Contacts</a></li>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" id="navbar-nav">
+                <div class="company-info">
+                    <img src="../images/logo_viridis.png" alt="Viridis Logo">
+                    <span class="company-name">Viridis™</span>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Challenges.html">Challenges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="about-section">
+        <div class="environment-box" id="about-box">
+            <img src="../images/about1.png" alt="About Image" class="environment-image">
+            <div class="environment-content">
+                <h2>About Us</h2>
+                <p>Welcome to Viridis, where our mission is to champion the protection and preservation of our precious environment. We believe in fostering a sustainable future for the habitats of Air, Water, and Earth.</p>
+            </div>
+        </div>
+
+    <div class="environment-box" id="vision-box">
+        <img src="../images/about2.png" alt="About Image" class="environment-image">
+        <div class="environment-content">
+        <h2>Our Vision</h2>
+        <p>At Viridis, we envision a world where the delicate balance of nature is safeguarded, and the habitats of Air, Water, and Earth thrive harmoniously. Our commitment extends to raising awareness and taking meaningful actions to address environmental challenges.</p>
+    </div>
+</div>
+
+    <div class="environment-box" id="why-matters-box">
+        <img src="../images/about3.png" alt="About Image" class="environment-image">
+        <div class="environment-content">
+        <h2>Why It Matters</h2>
+        <p>The health of our planet directly impacts the well-being of every living creature. Air pollution, water scarcity, deforestation, and soil degradation pose significant threats to the ecosystems we depend on. By understanding and addressing these challenges, we contribute to a sustainable and resilient future for generations to come.</p>
+    </div>
+</div>
+    <div class="environment-box" id="join-us-box">
+            <img src="../images/about4.png" alt="Join Us Image" class="environment-image">
+            <div class="environment-content">
+                <h2>Join Us in the Journey</h2>
+                <p>We invite you to join us on this journey towards a greener and healthier planet. Explore our challenges section to test your knowledge, learn more about the environmental issues we face, and discover how you can make a positive impact in your own community.</p>
+                <a href="./Challenges.html" class="knowledge-test-button">Jump to Challenges</a>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+    <nav class="bottom-navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Challenges.html">Challenges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contacts.html">Contact</a>
+            </li>
         </ul>
     </nav>
 
-    <section class="about-section">
-        <div class="environment-box" id="about-box">
-            <h2>About Us</h2>
-            <p>Welcome to Viridis, where our mission is to champion the protection and preservation of our precious environment. We believe in fostering a sustainable future for the habitats of Air, Water, and Ground.</p>
-        </div>
-
-        <div class="environment-box" id="vision-box">
-            <h2>Our Vision</h2>
-            <p>At Viridis, we envision a world where the delicate balance of nature is safeguarded, and the habitats of Air, Water, and Ground thrive harmoniously. Our commitment extends to raising awareness and taking meaningful actions to address environmental challenges.</p>
-        </div>
-
-        <div class="environment-box" id="why-matters-box">
-            <h2>Why It Matters</h2>
-            <p>The health of our planet directly impacts the well-being of every living creature. Air pollution, water scarcity, deforestation, and soil degradation pose significant threats to the ecosystems we depend on. By understanding and addressing these challenges, we contribute to a sustainable and resilient future for generations to come.</p>
-        </div>
-
-        <div class="environment-box" id="join-us-box">
-            <h2>Join Us in the Journey</h2>
-            <p>We invite you to join us on this journey towards a greener and healthier planet. Explore our challenges section to test your knowledge, learn more about the environmental issues we face, and discover how you can make a positive impact in your own community.</p>
-        </div>
-    </section>
-
-    <div class="company-info">
-        <img src="../images/logo_viridis.png" alt="Viridis Logo">
-        <h2>Viridis™</h2>
-    </div>
-
-    <footer>
-        <nav class="bottom-navbar">
-            <ul>
-                <li class="nav-item home"><a href="../index.html">Home</a></li>
-                <li class="nav-item"><a href="./About.html">About</a></li>
-                <li class="nav-item challenges"><a href="./Challenges.html">Challenges</a></li>
-                <li class="nav-item contact"><a href="./Contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
-    </footer>
-    <script src="./animation.js"></script>
+    <script src="../scripts/animation.js"></script>
 </body>
 </html>

@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenges</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+        body{
+            background: url('../images/nature.gif') center/cover no-repeat fixed;
+        }
+    </style>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="nav-item home"><a href="../index.html">Home</a></li>
-            <li class="nav-item"><a href="About.html">About</a></li>
-            <li class="nav-item challenges"><a class="active" href="Challenges.html">Challenges</a></li>
-            <li class="nav-item contact"><a href="Contacts.html">Contacts</a></li>
-        </ul>
-    </nav>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar" id="navbar-nav">
+                <div class="company-info">
+                    <img src="../images/logo_viridis.png" alt="Viridis Logo">
+                    <span class="company-name">Viridis™</span>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./About.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Challenges.html">Challenges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <div class="environment-box" id="ground-box">
         <h2>Earth Challenges</h2>
@@ -32,21 +53,24 @@
         <p>Air pollution, caused by industrial emissions and vehicle exhaust, is a major concern for our atmosphere. Transitioning to clean energy sources, improving public transportation, and enforcing emission standards are vital for combating air pollution.</p>
         <a href="./challenges/Air.html" class="knowledge-test-button">Test Your Knowledge</a>
     </div>
-    <div class="company-info">
-        <img src="../images/logo_viridis.png" alt="Viridis Logo">
-        <h2>Viridis™</h2>
-    </div>
+    <br><br>
+    <nav class="bottom-navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./About.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Challenges.html">Challenges</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Contacts.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-    <footer>
-        <nav class="bottom-navbar">
-            <ul>
-                <li class="nav-item home"><a href="../index.html">Home</a></li>
-                <li class="nav-item"><a href="./About.html">About</a></li>
-                <li class="nav-item challenges"><a href="./Challenges.html">Challenges</a></li>
-                <li class="nav-item contact"><a href="./Contacts.html">Contacts</a></li>
-            </ul>
-        </nav>
-    </footer>
-    <script src="./animation.js"></script>
+    <script src="../scripts/animation.js"></script>
 </body>
 </html>
