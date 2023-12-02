@@ -10,12 +10,7 @@
 
  ## 💻 About
 <p align="center" style="font-size: 16px;">This is our website about "Green Challenges," where you will learn about the problems in the environment and how to fix them.</p>
-<<<<<<< HEAD
- 
 
-
-=======
->>>>>>> 152623d1a9258900615771610aa20f3c3f266581
 ## 🖊 Used code editor & collaborative service:
 <p align="left">
     <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/344/visual-studio-code-2019.png" alt="VS code logo" width=48px /></a>
