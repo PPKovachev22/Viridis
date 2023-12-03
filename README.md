@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <img src="images/logo_viridis.png" width="200">
+  <img src="./images/logo_viridis.png" width="200">
 </div>
 
  ## 💻 About
