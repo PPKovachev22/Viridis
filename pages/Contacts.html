@@ -1,16 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
     <link rel="stylesheet" href="../styles/styles.css">
     <style>
-        body{
+         body{
             background: url('../images/nature.gif') center/cover no-repeat fixed;
+        }
+        .contacts-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contacts-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 100px;
+            margin-left: 60px;
+            margin-right: 60px;
+            height: 40%;
+            width: 70%;
+            padding: 2px;
+            background-color: white;
+            border: 8px solid #4CAF50;
+            border-radius: 40px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            position: relative;
+        }
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile_pic{
+            display: flex;
+            margin-bottom: 30px;
+            padding: 20px;
+            position: relative;
+            width: 15%;
+            height: 20%;
         }
     </style>
 </head>
+
 <body>
     <nav>
         <header class="header">
@@ -20,6 +56,73 @@
                         <img src="../images/logo_viridis.png" alt="Viridis Logo">
                         <span class="company-name">Viridis™</span>
                     </div>
+                        <ul class="nav-list">
+                          <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home</a>
+                           </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="./About.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./Challenges.html">Challenges</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./Contacts.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </nav>
+    </div>
+    </header>
+                </li>
+                <br><br>
+
+                <section class="contacts-section" id="about-box">
+                <div class="contacts-box">
+                    <div class="content">
+                        <h2>
+                            Welcome to our contacts!
+                        </h2>
+                        <p>You can contact us using our company email: Viridis_contact@gmail.com</p>
+                        <p>Or by calling our company number: 0891256694</p>
+                        <p>You can also contact our individual members:</p>
+                    </div>
+                </div>
+
+                    <div class="contacts-box">
+                        <img class="profile_pic" src="../images/contacts1.png" alt="PetkoKovachev">
+                        <div class="content">
+                            <h2>Petko Kovachev (Scrum Trainer)</h2>
+                            <p>Email: PPKovachev22@codingburgas.bg</p>
+                        </div>
+                    </div>
+                    <div class="contacts-box">
+                        <div class="content">
+                            <h2>Martin Dimitrov (Front-end Developer)</h2>
+                            <p>Email: MEDimitrov22@codingburgas.bg</p>
+                        </div>
+                        <img class="profile_pic" src="../images/contacts2.png" alt="MartinDimitrov">
+                    </div>
+                    <div class="contacts-box">
+                        <img class="profile_pic" src="../images/contacts3.png" alt="KaloyanPetrov">
+                        <div class="content">
+                            <h2>Kaloyan Petrov (Front-end developer)</h2>
+                            <p>Email: KSPetrov22@codingburgas.bg</p>
+                        </div>
+                    </div>
+                    <div class="contacts-box">
+                        <div class="content">
+                            <h2>Petur Dimirtrov (Designer)</h2>
+                            <p>Email: PPDimitrov22@codingburgas.bg</p>
+                        </div>
+                        <img class="profile_pic" src="../images/contacts4.png" alt="PeturDimitrov">
+                    </div>
+                </section>
+
+            <br><br>
+                <nav class="bottom-navbar">
                     <ul class="nav-list">
                         <li class="nav-item">
                             <a class="nav-link" href="./index.html">Home</a>
@@ -30,30 +133,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./Challenges.html">Challenges</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="./Contacts.html">Contact</a>
                         </li>
                     </ul>
                 </nav>
-            </div>
-        </header>
-                        </li>
-                    <br><br>
-                        <nav class="bottom-navbar">
-                            <ul class="nav-list">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./About.html">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./Challenges.html">Challenges</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./Contacts.html">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
 </body>
+
 </html>
