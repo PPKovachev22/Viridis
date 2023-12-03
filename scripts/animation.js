@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const environment_boxes = document.querySelectorAll('.environment-box');
+    const contacts_boxes = document.querySelectorAll('.environment-box');
 
     const observerOptions = {
         threshold: 0.2
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const observer = new IntersectionObserver(observerCallback, observerOptions);
 
-    environment_boxes.forEach((el) => {
+    contacts_boxes.forEach((el) => {
         observer.observe(el);
     });
 });

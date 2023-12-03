@@ -1,59 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="../styles/styles.css">
-    <style>
-        body{
-            background: url('../images/nature.gif') center/cover no-repeat fixed;
-        }
-
-        .about-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .environment-box {
-            display: flex;
-            align-items: center;
-            margin-bottom: 30px;
-            padding: 20px;
-            border: 8px solid #4CAF50;
-            border-radius: 40px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-            position: relative;
-        }
-
-        .environment-image {
-            max-width: 100%;
-            height: auto;
-            margin-right: 20px; /* Adjust the margin as needed */
-        }
-
-        .environment-content {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .environment-content h2 {
-            order: -1; /* Move h2 to the top */
-        }
-
-        /* Additional styles for other elements */
-
-        .jump-to-challenges {
-            margin-top: auto;
-            margin-left: auto;
-            display: block;
-        }
-
-    </style>
+    <script src="../scripts/animation.js"></script>
+    <link rel="icon" href="../images/logo_viridis.png" type="image/x-icon">
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -79,41 +35,51 @@
             </nav>
         </div>
     </header>
-    
+
     <section class="about-section">
         <div class="environment-box" id="about-box">
             <img src="../images/about1.png" alt="About Image" class="environment-image">
             <div class="environment-content">
                 <h2>About Us</h2>
-                <p>Welcome to Viridis, where our mission is to champion the protection and preservation of our precious environment. We believe in fostering a sustainable future for the habitats of Air, Water, and Earth.</p>
+                <p>Welcome to Viridis, where our mission is to champion the protection and preservation of our precious
+                    environment. We believe in fostering a sustainable future for the habitats of Air, Water, and
+                    Earth.</p>
             </div>
         </div>
 
-    <div class="environment-box" id="vision-box">
-        <img src="../images/about2.png" alt="About Image" class="environment-image">
-        <div class="environment-content">
-        <h2>Our Vision</h2>
-        <p>At Viridis, we envision a world where the delicate balance of nature is safeguarded, and the habitats of Air, Water, and Earth thrive harmoniously. Our commitment extends to raising awareness and taking meaningful actions to address environmental challenges.</p>
-    </div>
-</div>
+        <div class="environment-box" id="vision-box">
+            <img src="../images/about2.png" alt="About Image" class="environment-image">
+            <div class="environment-content">
+                <h2>Our Vision</h2>
+                <p>At Viridis, we envision a world where the delicate balance of nature is safeguarded, and the habitats
+                    of Air, Water, and Earth thrive harmoniously. Our commitment extends to raising awareness and
+                    taking meaningful actions to address environmental challenges.</p>
+            </div>
+        </div>
 
-    <div class="environment-box" id="why-matters-box">
-        <img src="../images/about3.png" alt="About Image" class="environment-image">
-        <div class="environment-content">
-        <h2>Why It Matters</h2>
-        <p>The health of our planet directly impacts the well-being of every living creature. Air pollution, water scarcity, deforestation, and soil degradation pose significant threats to the ecosystems we depend on. By understanding and addressing these challenges, we contribute to a sustainable and resilient future for generations to come.</p>
-    </div>
-</div>
-    <div class="environment-box" id="join-us-box">
+        <div class="environment-box" id="why-matters-box">
+            <img src="../images/about3.png" alt="About Image" class="environment-image">
+            <div class="environment-content">
+                <h2>Why It Matters</h2>
+                <p>The health of our planet directly impacts the well-being of every living creature. Air pollution,
+                    water scarcity, deforestation, and soil degradation pose significant threats to the ecosystems we
+                    depend on. By understanding and addressing these challenges, we contribute to a sustainable and
+                    resilient future for generations to come.</p>
+            </div>
+        </div>
+
+        <div class="environment-box" id="join-us-box">
             <img src="../images/about4.png" alt="Join Us Image" class="environment-image">
             <div class="environment-content">
                 <h2>Join Us in the Journey</h2>
-                <p>We invite you to join us on this journey towards a greener and healthier planet. Explore our challenges section to test your knowledge, learn more about the environmental issues we face, and discover how you can make a positive impact in your own community.</p>
+                <p>We invite you to join us on this journey towards a greener and healthier planet. Explore our
+                    challenges section to test your knowledge, learn more about the environmental issues we face, and
+                    discover how you can make a positive impact in your own community.</p>
                 <a href="./Challenges.html" class="knowledge-test-button">Jump to Challenges</a>
             </div>
         </div>
     </section>
-    <br><br>
+    <br><br><br>
 
     <nav class="bottom-navbar">
         <ul class="nav-list">
@@ -131,7 +97,6 @@
             </li>
         </ul>
     </nav>
-
-    <script src="../scripts/animation.js"></script>
 </body>
+
 </html>
