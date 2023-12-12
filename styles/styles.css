@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     background: url('../images/nature.gif') center/cover no-repeat fixed;
 }
-
+ 
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -12,14 +12,14 @@ body {
     text-align: center;
     color: #fff;
 }
-
+ 
 .header {
     background-color: #162533;
     padding: -50px 0;
     border-bottom: 5px solid rgb(3, 65, 3);
     background-color: forestgreen;
 }
-
+ 
 /* Navbar */
 .navbar {
     display: flex;
@@ -27,19 +27,19 @@ body {
     align-items: center;
     padding: 5px 0;
 }
-
+ 
 .company-info {
     display: flex;
     align-items: center;
 }
-
+ 
 .company-info img {
     max-width: 60px;
     height: auto;
     margin-right: -15px;
     margin-left: -90px;
 }
-
+ 
 .company-name,
 .nav-link {
     color: #fff;
@@ -52,25 +52,25 @@ body {
     padding: 16px 32px;
     box-sizing: border-box;
 }
-
+ 
 .nav-list {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
-
+ 
 .nav-item {
     margin-left: 0px;
 }
-
+ 
 .nav-link:hover,
 .nav-item.active .nav-link {
     color: #e0ffe0;
     background-color: rgb(26, 177, 26);
     transform: scale(1.1);
 }
-
+ 
 .bottom-navbar {
     display: flex;
     justify-content: center;
@@ -78,9 +78,9 @@ body {
     padding: 20px 0;
     width: 100%;
 }
-
+ 
 /* Home page */
-
+ 
 .starting {
     height: 100vh;
     display: flex;
@@ -88,12 +88,12 @@ body {
     text-align: center;
     color: #fff;
 }
-
+ 
 .starting-content {
     opacity: 0;
     animation: popUp 1s ease-out forwards;
 }
-
+ 
 .display-4,
 .lead,
 .btn,
@@ -105,12 +105,12 @@ body {
     font-size: 3rem;
     font-weight: 700;
 }
-
+ 
 .starting p {
     font-size: 1.25rem;
     margin-top: 20px;
 }
-
+ 
 .btn {
     display: inline-block;
     padding: 15px 30px;
@@ -121,13 +121,13 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
-
+ 
 .btn:hover {
     background-color: #218838;
 }
-
+ 
 /* Animation */
-
+ 
 @keyframes popUp {
     0% {
         opacity: 0;
@@ -136,7 +136,7 @@ body {
         opacity: 1;
     }
 }
-
+ 
 /* About page + Challenges page */
 .environment-box {
     opacity: 0;
@@ -152,29 +152,29 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
 }
-
+ 
 .environment-box h2 {
     font-size: 48px;
     color: #333;
     margin-bottom: 30px;
 }
-
+ 
 .environment-box p {
     font-size: 36px;
     color: #555;
     margin-bottom: 30px;
 }
-
+ 
 .environment-box.animate {
     opacity: 1;
     animation: popUp 1s ease-out forwards;
 }
-
+ 
 .challenges-title {
     color: rgb(45, 179, 54);
     text-align: center;
 }
-
+ 
 .knowledge-test-button {
     position: absolute;
     bottom: 20px;
@@ -189,7 +189,7 @@ body {
     font-size: 16px;
     transition: background-color 0.3s;
 }
-
+ 
 #earth-box,
 #water-box,
 #air-box {
@@ -204,7 +204,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
 }
-
+ 
 #earth-box h2,
 #water-box h2,
 #air-box h2 {
@@ -214,7 +214,7 @@ body {
     color: #333;
     margin-bottom: 30px;
 }
-
+ 
 #earth-box p,
 #water-box p,
 #air-box p {
@@ -223,15 +223,15 @@ body {
     color: #555;
     margin-bottom: 30px;
 }
-
+ 
 /* Styles specific to about.html */
-
+ 
 .about-section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+ 
 .environment-box {
     display: flex;
     align-items: center;
@@ -242,13 +242,13 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
 }
-
+ 
 .environment-image {
     max-width: 100%;
     height: auto;
     margin-right: 20px;
 }
-
+ 
 .environment-content {
     flex: 1;
     display: flex;
@@ -256,28 +256,28 @@ body {
     align-items: center;
     text-align: center;
 }
-
+ 
 .environment-content h2 {
     order: -1;
     font-size: 48px;
     color: #333;
     margin-bottom: 30px;
 }
-
+ 
 .environment-content p {
     order: 1;
     font-size: 36px;
     color: #555;
     margin-bottom: 30px;
 }
-
+ 
 .jump-to-challenges {
     margin-top: auto;
     margin-left: auto;
     display: block;
 }
 /* Challenges tests */
-
+ 
 form {
     max-width: 600px;
     margin: 20px auto;
@@ -290,11 +290,11 @@ form {
     flex-direction: column;
     align-items: left;
 }
-
+ 
 form label {
     margin-bottom: 10px;
 }
-
+ 
 #result-message {
     display: none;
     max-width: 600px;
@@ -305,11 +305,11 @@ form label {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
+ 
 #result-message p {
     margin-bottom: 10px;
 }
-
+ 
 #result-message a {
     display: inline-block;
     padding: 10px 20px;
@@ -319,11 +319,11 @@ form label {
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
 }
-
+ 
 #result-message a:hover {
     background-color: #228B22;
 }
-
+ 
 .submit-button {
     padding: 10px 20px;
     font-size: 16px;
@@ -334,19 +334,19 @@ form label {
     cursor: pointer;
     margin-top: 30px;
 }
-
+ 
 .submit-button:hover {
     background-color: #45a049;
 }
-
+ 
 /* Contacts section */
-
+ 
 .contacts-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+ 
 .contacts-box {
     margin: 0 20px 30px;
     width: 40%;
@@ -356,7 +356,7 @@ form label {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
     position: relative;
 }
-
+ 
 .contributor {
     display: flex;
     align-items: center;
@@ -364,71 +364,81 @@ form label {
     border-bottom: 2px solid #4CAF50;
     font-size: 18px;
 }
-
+ 
 .content {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+ 
 .profile_pic {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-right: 10px;
 }
-
+ 
 .last-contacts-box {
     text-align: center;
     padding: 20px;
 }
-
+ 
+.contacts-title {
+    text-align: center;
+    color:#fff;
+}
+ 
+ 
+.larger-text {
+    font-size: 32px; /* Adjust the font size as needed */
+}
+ 
 /* Responsive */
-
+ 
 @media (max-width: 768px) {
     .environment-box {
         flex-direction: column;
         align-items: center;
         margin: 30px;
     }
-
+ 
     .company-info img {
         margin-right: 10px;
         margin-left: 10px;
     }
-
+ 
     .environment-image {
         margin-bottom: 20px;
     }
-
+ 
     .environment-content {
         text-align: center;
     }
-
+ 
     .bottom-navbar {
         padding: 10px 20px;
     }
-
+ 
     .nav-list {
         flex-direction: row;
         justify-content: space-around;
     }
-
+ 
     .nav-link {
         padding: 5px 10px;
     }
     .contacts-box {
         width: 100%;
     }
-
+ 
     .profile_pic {
         width: 100px;
         height: 100px;
     }
 }
-
-
+ 
+ 
 /* For tablets */
 @media (min-width: 769px) {
     .contacts-section {
@@ -436,12 +446,12 @@ form label {
         justify-content: space-around;
         flex-wrap: wrap;
     }
-
+ 
     .contacts-box {
         width: 45%;
         margin: 0 0 20px;
     }
-
+ 
     .profile_pic {
         width: 150px;
         height: 150px;
