@@ -1,3 +1,4 @@
+/* All page code */
 body {
     margin: 0;
     padding: 0;
@@ -30,15 +31,15 @@ body {
 .company-info {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
- 
+
 .company-info img {
-    max-width: 60px;
+    max-width: 100%;
     height: auto;
-    margin-right: -15px;
-    margin-left: -90px;
+    margin-right: 10px;
 }
- 
+
 .company-name,
 .nav-link {
     color: #fff;
@@ -414,11 +415,16 @@ form .feedback-icon {
         margin: 50px;
     }
  
-    .company-info img {
-        margin-right: 10px;
-        margin-left: 10px;
+    .company-info {
+        justify-content: center;
     }
- 
+
+    .company-info img {
+        max-width: 60px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
     .environment-image {
         margin-bottom: 20px;
     }
@@ -466,5 +472,11 @@ form .feedback-icon {
     .profile_pic {
         width: 150px;
         height: 150px;
+    }
+
+    .company-info img {
+        max-width: 60px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
