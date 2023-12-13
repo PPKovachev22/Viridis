@@ -1,15 +1,15 @@
-document.getElementById("ground-test-form").addEventListener("submit", function(event) {
+document.getElementById("water-test-form").addEventListener("submit", function(event) {
     event.preventDefault();
     const answers = {
-        q1: "a",
-        q2: "c",
+        q1: "b",
+        q2: "a",
         q3: "c",
         q4: "b",
-        q5: "c",
-        q6: "a",
+        q5: "a",
+        q6: "c",
         q7: "c",
         q8: "b",
-        q9: "a",
+        q9: "c",
         q10: "a"
     };
 
